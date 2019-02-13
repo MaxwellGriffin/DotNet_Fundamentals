@@ -49,8 +49,12 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="If_Elseif_Else.cs" />
     <Compile Include="Reference_Types_And_Collections.cs" />
     <Compile Include="Operators_And_Methods.cs" />
+    <Compile Include="Switches_And_Enums.cs" />
+    <Compile Include="Tax.cs" />
+    <Compile Include="Loops.cs" />
     <Compile Include="Value_Types.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

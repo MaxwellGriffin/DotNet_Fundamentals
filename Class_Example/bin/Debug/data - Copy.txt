@@ -1,0 +1,24 @@
+?
+0
+Sugar Cookie
+sugar, cookies
+12
+False
+?
+1
+Peanut butter cookie
+peanuts, butter
+24
+True
+?
+2
+Nasty Cookie
+soy, human flesh
+666
+True
+?
+3
+Chocolate Chip Cookie
+chips, milk, flour, eggs
+6
+False

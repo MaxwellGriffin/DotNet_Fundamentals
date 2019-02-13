@@ -1,0 +1,7 @@
+C:\DotNetProjects\DotNet_Fundamentals\Challenge_Mon_1_V2\bin\Debug\Challenge_Mon_1_V2.exe.config
+C:\DotNetProjects\DotNet_Fundamentals\Challenge_Mon_1_V2\bin\Debug\Challenge_Mon_1_V2.exe
+C:\DotNetProjects\DotNet_Fundamentals\Challenge_Mon_1_V2\bin\Debug\Challenge_Mon_1_V2.pdb
+C:\DotNetProjects\DotNet_Fundamentals\Challenge_Mon_1_V2\obj\Debug\Challenge_Mon_1_V2.csprojAssemblyReference.cache
+C:\DotNetProjects\DotNet_Fundamentals\Challenge_Mon_1_V2\obj\Debug\Challenge_Mon_1_V2.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\DotNet_Fundamentals\Challenge_Mon_1_V2\obj\Debug\Challenge_Mon_1_V2.exe
+C:\DotNetProjects\DotNet_Fundamentals\Challenge_Mon_1_V2\obj\Debug\Challenge_Mon_1_V2.pdb

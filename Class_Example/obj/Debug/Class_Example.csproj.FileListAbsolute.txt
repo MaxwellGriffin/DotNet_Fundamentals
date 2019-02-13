@@ -1,0 +1,7 @@
+C:\DotNetProjects\DotNet_Fundamentals\Class_Example\bin\Debug\Class_Example.exe.config
+C:\DotNetProjects\DotNet_Fundamentals\Class_Example\bin\Debug\Class_Example.exe
+C:\DotNetProjects\DotNet_Fundamentals\Class_Example\bin\Debug\Class_Example.pdb
+C:\DotNetProjects\DotNet_Fundamentals\Class_Example\obj\Debug\Class_Example.csprojAssemblyReference.cache
+C:\DotNetProjects\DotNet_Fundamentals\Class_Example\obj\Debug\Class_Example.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\DotNet_Fundamentals\Class_Example\obj\Debug\Class_Example.exe
+C:\DotNetProjects\DotNet_Fundamentals\Class_Example\obj\Debug\Class_Example.pdb
