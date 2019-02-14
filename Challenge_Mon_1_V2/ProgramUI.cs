@@ -51,6 +51,7 @@ namespace Challenge_Mon_1_V2
 					break;
 				case "edit":
 					rw.SetMainContentList(GetEditedContent(int.Parse(command)));
+					ListOneContent(int.Parse(command));
 					ReadCommand();
 					break;
 				case "del":
@@ -60,6 +61,16 @@ namespace Challenge_Mon_1_V2
 				case "help":
 					Console.WriteLine();
 					Menu();
+					break;
+				case "q":
+					rw.AddToQueue(int.Parse(command));
+					var contentList = rw.GetMainContentList();
+					Console.WriteLine("\n'" + contentList[int.Parse(command)].Name + "' added to queue.\n");
+					ReadCommand();
+					break;
+				case "showq":
+					ShowQueue();
+					ReadCommand();
 					break;
 				default:
 					Console.WriteLine($"\nERROR! '{cmd}' not recognized. Type HELP for options.\n");
@@ -97,6 +108,8 @@ namespace Challenge_Mon_1_V2
 				"\tnew: add new content\n" +
 				"\tedit <index>: edit content\n" +
 				"\tdel <index>: delete content\n" +
+				"\tq <index>: queue content\n" +
+				"\tshowq: show queue\n" +
 				"\thelp: show commands\n");
 			if (firstTimeLoad == true)
 			{
@@ -234,7 +247,7 @@ namespace Challenge_Mon_1_V2
 				contentList[x].Genre = input;
 			}
 
-			Console.WriteLine("\nDone editing.\n");
+			Console.WriteLine("\nDone editing.");
 			return contentList;
 			
 		}
@@ -258,6 +271,27 @@ namespace Challenge_Mon_1_V2
 			Console.WriteLine();
 
 			return newContent;
+		}
+
+		public void ShowQueue()
+		{
+			Console.Write("\nQueue (first to last):\t");
+			var contentQueue = rw.GetQueue();
+			int i = 1;
+			foreach (Content content in contentQueue)
+			{
+				if(i < contentQueue.Count)
+				{
+					Console.Write($"'{content.Name}', ");
+				}
+				else
+				{
+					Console.Write($"'{content.Name}'.");
+					Console.WriteLine("\n");
+				}
+				i++;
+			}
+
 		}
 	}
 }

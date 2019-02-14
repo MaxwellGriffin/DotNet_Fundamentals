@@ -1,7 +1,7 @@
 Spongebob
 1
 G
-11
+20
 Cartoon
 The Simpsons
 1
@@ -23,3 +23,8 @@ Planet Earth
 G
 60
 Documentary
+The Simpsons Movie
+0
+R
+90
+Comedy

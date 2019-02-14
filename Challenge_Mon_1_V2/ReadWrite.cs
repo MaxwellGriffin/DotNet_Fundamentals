@@ -11,9 +11,11 @@ namespace Challenge_Mon_1_V2
 	{
 		public string filepath;
 		public List<Content> mainContentList;
+		public Queue<Content> contentQueue;
 
 		public void Load(string path)
 		{
+			contentQueue = new Queue<Content>();
 			mainContentList = new List<Content>();
 			filepath = path;
 			string[] lines = File.ReadAllLines(filepath);
@@ -106,6 +108,15 @@ namespace Challenge_Mon_1_V2
 			{
 				Console.WriteLine("Invalid command.");
 			}
+		}
+
+		public void AddToQueue(int x)
+		{
+			contentQueue.Enqueue(mainContentList[x]);
+		}
+		public Queue<Content> GetQueue()
+		{
+			return contentQueue;
 		}
 	}
 }
